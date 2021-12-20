@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<world name="default">
+
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+<!-- custom models -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+		<include>
+			<uri>model://curve_path</uri>
+			<name>curve_path</name>
+			<pose>0 0 0 0 0 0</pose>
+		</include>
+
+		<include>
+			<uri>model://my_robot</uri>
+			<name>my_robot</name>
+			<pose>8.47229 -0.405115 0.052287 0 0 -2.578332</pose>
+		</include>
+    
+		
+	</world>
+</sdf>
