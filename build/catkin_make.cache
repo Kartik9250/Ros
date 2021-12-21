@@ -1,2 +1,2 @@
-MR-Robot/mr_robot_description:MR-Robot/mr_robot_gazebo:MR-Robot/mr_robot_nav:gazebo_brrr
+gazebo_brrr
 -DCATKIN_DEVEL_PREFIX=/home/brad/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/brad/catkin_ws/install -G Unix Makefiles
